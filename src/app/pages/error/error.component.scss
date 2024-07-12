@@ -1,0 +1,11 @@
+section {
+  @apply flex flex-col gap-y-8 h-screen items-center justify-center;
+  background-color: #fffdfd;
+  img {
+    @apply max-w-md;
+    width: 80%;
+  }
+  button {
+    @apply bg-purple-700 dark:bg-purple-600 dark:focus:ring-purple-900 dark:hover:bg-purple-700 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium hover:bg-purple-800 mb-2 px-5 py-2.5 rounded-lg text-sm text-white
+  }
+}
