@@ -1,0 +1,42 @@
+section {
+  @apply flex flex-col h-screen items-center justify-center;
+  background-color: #fffdfd;
+  img {
+    @apply max-w-56;
+    width: 84%;
+  }
+  form {
+    @apply bg-white flex flex-row justify-between md:gap-0 md:h-[360px] md:w-[720px] mt-2 p-4 rounded-lg sm:gap-8 sm:w-[540px] shadow;
+    img {
+      @apply md:h-auto md:max-w-[306px];
+    }
+    div {
+      @apply flex flex-col md:h-full md:justify-center md:w-[300px] sm:w-[220px];
+      h3 {
+        @apply text-center;
+      }
+      p {
+        @apply mb-2 text-center text-xs;
+      }
+      label {
+        @apply flex flex-col mb-2 text-center text-gray-500;
+        input {
+          @apply border border-gray-200 focus:border-0 focus:outline-none focus:ring-0 focus:ring-fuchsia-400 focus:outline-fuchsia-400 placeholder-gray-300 px-4 py-2 rounded-lg text-center;
+          transition: all 0.1s ease-in;
+        }
+      }
+      button {
+        @apply bg-fuchsia-600 focus:outline-0 focus:ring-4 focus:ring-fuchsia-300 font-medium hover:bg-fuchsia-700 mt-4 rounded-lg text-sm text-white px-4 py-2 mb-2;
+      }
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  section {
+    form {
+      @apply flex flex-col items-center justify-center;
+      width: 88%;
+    }
+  }
+}

@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
-
+  logoImg = "assets/images/logo.png";
+  introImg = "assets/images/intro.png";
 }

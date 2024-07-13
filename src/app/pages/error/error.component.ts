@@ -11,5 +11,6 @@ import {RouterLink} from "@angular/router";
   styleUrl: './error.component.scss'
 })
 export class ErrorComponent {
-  notFound = "assets/images/not_found.png";
+  logoImg = "assets/images/logo.png";
+  notFoundImg = "assets/images/not_found.png";
 }
